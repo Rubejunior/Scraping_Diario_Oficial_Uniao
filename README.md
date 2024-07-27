@@ -12,9 +12,12 @@ Why first capture the links and not direct JSONs? The solution came over time; t
 
 Operation of each program. They are all integrated by executar_todos.py and bat, operating from Monday to Friday at a pre-determined time.
 
-baixar_todos.py - The objective is to access the union's gazette. The program accesses the union's site and performs the advanced search. You can adapt the code to collect any item from the notice, even all of them. I suggest you do a good analysis of the data you are interested in before starting any of the programs, as this will save you a lot of time. Instead of collecting the data right away, the program searches for all the links available in the search.
+# baixar_todos.py # 
 
- coletar_todos.py - The program accesses the links collected by baixar_todos.py, accesses, and collects all the data from the page. You can try to be more specific; I preferred to process the data in my own database. 
+The objective is to access the union's gazette. The program accesses the union's site and performs the advanced search. You can adapt the code to collect any item from the notice, even all of them. I suggest you do a good analysis of the data you are interested in before starting any of the programs, as this will save you a lot of time. Instead of collecting the data right away, the program searches for all the links available in the search.
+
+# coletar_todos.py #
+- The program accesses the links collected by baixar_todos.py, accesses, and collects all the data from the page. You can try to be more specific; I preferred to process the data in my own database. 
 
 # trans_ibama / mte / prev.py #
 The three programs report the difficulty and lack of standardization of the collected data, and therefore they were separated so that the error of one does not impact the operation of the other, as the search to compile the data is different in the three cases. If you take the DOU as a whole, perhaps we have more than 100 different data formats that should be identical and covered by a simple regular expression search, but that has not been the case, at least until now. I would be happy to receive any improvements in the code and even discuss it with other interested parties. I leave my contact information for anyone who wants to discuss the project. 
@@ -23,14 +26,13 @@ The three programs report the difficulty and lack of standardization of the coll
 
 # rubemarsaboia@proton.me #
 
-# Esse código é inspirado e uma adaptação do (RO-DOU) fornecido pela UNIÃO. No meu caso foi necessário algumas adaptações. Você pode acessar o RO-DOU no GITHUB: https://github.com/gestaogovbr/Ro-dou sem dúvidas o primeiro código a ser visto antes de qualquer outro. #
+# Português #
 
-# Desafios: Foram gastos alguns dias para chegar ao resultado atual visto que a falta de padronização dos dados publicados no Diário oficial dificulta o processo de codificação dos dados coletados. As mudanças constantes são um desafio e geram uma necessidade de adaptar o código para vários casos e o continuar fazendo ao decorrer do tempo. Espero que logo essa questão seja solucionada pelos nossos amigos da T.I servidores da união (e demais entes); #
-"
+# Desafios: Foram gastos alguns dias para chegar ao resultado atual visto que a falta de padronização dos dados publicados no Diário oficial dificulta o processo de codificação dos dados coletados. As mudanças constantes são um desafio e geram uma necessidade de adaptar o código para vários casos e o continuar fazendo ao decorrer do tempo. Espero que logo essa questão seja solucionada pelos nossos amigos da T.I servidores da união (e demais entes); 
 
-*Português
+
     
-*funcionamentos dos programas - GERAL. #
+# Funcionamentos dos programas - GERAL #
 
 *Separar os programas (motivo): a princípio comecei com apenas um programa, obtive exito, mas parava de funcionar muito rapido, as vezes de um dia para outro. Seja por problemas no scraping ou qualquer outro como problemas no tratamento de dados. Por esse motivo separei os programas. 
 
