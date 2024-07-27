@@ -28,7 +28,8 @@ The three programs report the difficulty and lack of standardization of the coll
 
 # Português #
 
-# Desafios: Foram gastos alguns dias para chegar ao resultado atual visto que a falta de padronização dos dados publicados no Diário oficial dificulta o processo de codificação dos dados coletados. As mudanças constantes são um desafio e geram uma necessidade de adaptar o código para vários casos e o continuar fazendo ao decorrer do tempo. Espero que logo essa questão seja solucionada pelos nossos amigos da T.I servidores da união (e demais entes); 
+# Desafios #
+Foram gastos alguns dias para chegar ao resultado atual visto que a falta de padronização dos dados publicados no Diário oficial dificulta o processo de codificação dos dados coletados. As mudanças constantes são um desafio e geram uma necessidade de adaptar o código para vários casos e o continuar fazendo ao decorrer do tempo. Espero que logo essa questão seja solucionada pelos nossos amigos da T.I servidores da união (e demais entes); 
 
 
     
