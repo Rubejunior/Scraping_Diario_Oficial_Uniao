@@ -1,21 +1,23 @@
-"English
+English
 
-# Challenges: It took a few days to reach the current result, as the lack of standardization of the data published in the Official Gazette makes the data coding process difficult. The constant changes are a challenge and create the need to adapt the code for various cases and continue doing so over time. I hope this issue will soon be resolved by our friends in IT, servers of the union (and other entities); #
+# Challenges:#
+
+It took a few days to reach the current result, as the lack of standardization of the data published in the Official Gazette makes the data coding process difficult. The constant changes are a challenge and create the need to adapt the code for various cases and continue doing so over time. I hope this issue will soon be resolved by our friends in IT, servers of the union (and other entities); *
 
 # Operation of the programs - GENERAL. #
 
-# Separating the programs (reason): at first, I started with just one program, I was successful, but it stopped working very quickly, sometimes from one day to the next. Whether due to scraping issues or any other problem like data treatment. For this reason, I separated the programs. #
+Separating the programs (reason): at first, I started with just one program, I was successful, but it stopped working very quickly, sometimes from one day to the next. Whether due to scraping issues or any other problem like data treatment. For this reason, I separated the programs.
 
-# Why first capture the links and not direct JSONs? The solution came over time; the program, without generating links, sometimes did not collect all the data. By first focusing on extracting the links, the process is divided, and any eventual failure is easier to relate to the correct access to the page (the problem could be something else), but here we already take an important step to ensure that all data will be accessed and collected. (Can baixar_todos and coletar_todos be merged? Yes, but that is left for colleagues' improvements) #
+Why first capture the links and not direct JSONs? The solution came over time; the program, without generating links, sometimes did not collect all the data. By first focusing on extracting the links, the process is divided, and any eventual failure is easier to relate to the correct access to the page (the problem could be something else), but here we already take an important step to ensure that all data will be accessed and collected. (Can baixar_todos and coletar_todos be merged? Yes, but that is left for colleagues' improvements)
 
-# Operation of each program. They are all integrated by executar_todos.py and bat, operating from Monday to Friday at a pre-determined time. #
+Operation of each program. They are all integrated by executar_todos.py and bat, operating from Monday to Friday at a pre-determined time.
 
-# baixar_todos.py - The objective is to access the union's gazette. The program accesses the union's site and performs the advanced search. You can adapt the code to collect any item from the notice, even all of them. I suggest you do a good analysis of the data you are interested in before starting any of the programs, as this will save you a lot of time. Instead of collecting the data right away, the program searches for all the links available in the search. #
+baixar_todos.py - The objective is to access the union's gazette. The program accesses the union's site and performs the advanced search. You can adapt the code to collect any item from the notice, even all of them. I suggest you do a good analysis of the data you are interested in before starting any of the programs, as this will save you a lot of time. Instead of collecting the data right away, the program searches for all the links available in the search.
 
-# coletar_todos.py - The program accesses the links collected by baixar_todos.py, accesses, and collects all the data from the page. You can try to be more specific; I preferred to process the data in my own database. #
+ coletar_todos.py - The program accesses the links collected by baixar_todos.py, accesses, and collects all the data from the page. You can try to be more specific; I preferred to process the data in my own database. 
 
-# trans_ibama / mte / prev.py 
-# The three programs report the difficulty and lack of standardization of the collected data, and therefore they were separated so that the error of one does not impact the operation of the other, as the search to compile the data is different in the three cases. If you take the DOU as a whole, perhaps we have more than 100 different data formats that should be identical and covered by a simple regular expression search, but that has not been the case, at least until now. I would be happy to receive any improvements in the code and even discuss it with other interested parties. I leave my contact information for anyone who wants to discuss the project. #
+# trans_ibama / mte / prev.py #
+The three programs report the difficulty and lack of standardization of the collected data, and therefore they were separated so that the error of one does not impact the operation of the other, as the search to compile the data is different in the three cases. If you take the DOU as a whole, perhaps we have more than 100 different data formats that should be identical and covered by a simple regular expression search, but that has not been the case, at least until now. I would be happy to receive any improvements in the code and even discuss it with other interested parties. I leave my contact information for anyone who wants to discuss the project. 
 
 # Contact #
 
@@ -43,6 +45,6 @@
 * trans_ibama / mte / prev.py 
 * Os três programas relatam a dificuldade e falta de padrão dos dados coeltados e por isso foram separados, para que o erro de um não impacte no funcionamento do outr, visto que a busca para copilar os dados é diferente nos três casos, e se você pegar o DOU como um todo talvez devemos ter mais de 100 formatos diferentes de dados que deveriam ser idênticos, e contemplados por uma simples busca por expressões regulares, mas não foi o caso, ao menos até agora. Ficarei feliz de receber qualquer melhoria no código e até mesmo discutir isso com outro interessado. Deixo meu contato para qualquer um que deseja discutir o projeto.#
 
-"contato #
+contato 
 
-# rubemarsaboia@proton.me #"
+# rubemarsaboia@proton.me #
